@@ -6,7 +6,7 @@ from pygame.locals import *
 pygame.init()
 
 red = (255, 0, 0)
-blue= (0, 0, 255)
+blue= (0, 0, 255)  
 grey = (192, 192, 192)
 green = (51, 102, 0)
 yellow = (0, 255, 255)
