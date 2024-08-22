@@ -12,7 +12,7 @@ site_block = ["www.daraz.com", "www.wscubetech.com"]
 
 host_path = "C:/Windows/System32/drivers/etc/hosts"
 redirect = "127.0.0.1"
-
+ 
 while True :
     
     if datetime.datetime.now() < end_time :
