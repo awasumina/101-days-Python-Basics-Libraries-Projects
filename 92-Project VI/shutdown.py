@@ -9,7 +9,7 @@ window.config(bg= "lightblue")
 def restart():
     os.system('shutdown /r /t 1')
     
-def time_restart():
+def time_restart():  
     os.system("shutdown /r /t 20")
     
 def logout():
