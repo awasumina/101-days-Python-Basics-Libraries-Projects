@@ -2,7 +2,7 @@ from tkinter import *
 
 # create an instance
 window = Tk()
-
+ 
 # create label widget
 label = Label(text = "Hello everyone", fg = "black", bg="orange", width = 20, height= 20)
 label.pack()
