@@ -13,4 +13,4 @@ def greeting_msg():
 btn = Button(text="Click Me", font= "Arial 14 bold", fg = "white", bg ="green", command = greeting_msg)
 btn.pack()
 
-window.mainloop()
+window.mainloop() 
