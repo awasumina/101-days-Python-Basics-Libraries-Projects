@@ -15,5 +15,5 @@ label_b.place(x= 50, y =50)
 
 label_c = Label(master = frame, text="I am at (100,125)", bg ="yellow", fg="black")
 label_c.place(x= 100, y = 125)
-
+  
 window.mainloop()
