@@ -13,4 +13,4 @@ while result :
     print("Image Captured")
 
 img_capture.release()
-
+   
