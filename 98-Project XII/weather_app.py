@@ -12,4 +12,4 @@ response=requests.get(url)   # get method to fetch data from a website and store
 s = soup(response.text,"html.parser") # This html parses/fetches the data from url
 
 update = s.find("div", class_ = "BNeawe").text # built in class
-print (update)
+print (update)  
