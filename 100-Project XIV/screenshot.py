@@ -3,7 +3,7 @@
 
 import time
 import pyautogui
-
+     
 def screenshot() :
     
     name = int(round(time.time() * 1000))
