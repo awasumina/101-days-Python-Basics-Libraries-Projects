@@ -3,7 +3,7 @@ from PIL import Image, ImageTk
 import random
 
 window = tk.Tk()
-window.title("Dice Roll")
+window.title("Dice Roll")  
 window.geometry("500x360")
 
 # def roll_dice():
@@ -23,7 +23,7 @@ label2 = tk.Label(window, image = image2)
 
 label1.place(x = 40, y = 100)
 label2.place(x = 300, y = 100)
-
+  
 def dice_roll():
     image1 = ImageTk.PhotoImage(Image.open(random.choice(dice)))
     label1.configure(image = image1)
@@ -36,4 +36,4 @@ def dice_roll():
 button = tk.Button(window, text = "ROLL", bg = "green", fg = "white", font = "Time 14 bold")
 button.place(x = 200, y =0)
 
-window.mainloop()
+window.mainloop()     
