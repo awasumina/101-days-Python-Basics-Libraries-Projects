@@ -11,4 +11,4 @@ def convert() :
     text = pytesseract.image_to_string(img)
     print(text)
     
-convert()
+convert()   
